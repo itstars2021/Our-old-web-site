@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+  }
+
+  .container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+.about-screen {
+    min-height: 500px;
+    padding-top: 50px;
+    background-color: rgb(200, 189, 247);
+    color: black;
+    padding-bottom: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .logo-link {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 700;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 30px 0 600px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu-item + .menu-item {
+    margin-left: 80px;
+  }
+  
+  .menu-link {
+    line-height: 17px;
+    text-decoration: none;
+  }
+  .menu-link:hover {
+      background-color: rgb(181, 148, 214);
+      opacity: 0.5;
+  }
+  
+  .menu-link.active {
+    font-weight: 700;
+  }
+  .user-block {
+    max-width: 255px;
+  }
+  
+  .user-block-link {
+    padding: 11px 29px 12px;  
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .user-block-link:hover {
+    background-color: rgb(172, 167, 241);
+    };
+
+    footer{
+      padding-top: 30px;
+      background-color: rgb(134, 134, 231);
+      color: rgb(5, 5, 5);
+      font-size: 14px;
+      padding-top: 40px;
+      font-weight: 700;
+      padding-bottom: 20px;
+    }
+    .footer-inner{
+      display: flex;
+      justify-content: space-between;
+    }
+    .social-inner {
+      list-style: none;
+    }
+    a.footer-mail{
+      text-decoration: none;
+      color: rgb(5, 5, 5);
+      font-size: 14px;
+    }
+    .social-inner{
+      display: flex;
+    }
+    .social-item{
+      padding-left: 10px;
+    }
+    .contact-screen {
+      background-color: rgb(214, 185, 241);
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    
+  footer {
+      background-color: rgb(150, 164, 245);
+      padding-bottom: 20px;
+  }
+  .my-screen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: blueviolet;
+      padding-bottom: 0;
+  }
+  .title-zhaz {
+      width: 400px;
+      font-size: 36px;
+  }
+  .text-title {
+    width: 400px;
+    font-size: 18px;
+  }
+  .link {
+    padding: 17px 45px 17px 45px;
+    border: 1px solid white;
+    border-radius: 12px;
+    text-decoration: none;
+    color: blueviolet;
+  }
+  .link:hover {
+    background-color: rgb(175, 158, 238);
+  }
+  h3 {
+    color: blueviolet;
+  }
+
+  .link {
+    padding: 17px 45px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: rgb(253, 254, 255);
+    color: blueviolet;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+
+  .text-title {
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  td {
+    padding: 0 50px 0 0;
+  }
+  .info {
+    background-color: rgb(200, 189, 247);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .photo {
+    border-radius: 50%;
+  }
+  .title-zhaz {
+    text-align: center;
+  }
